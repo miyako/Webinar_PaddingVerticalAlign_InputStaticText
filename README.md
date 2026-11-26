@@ -32,7 +32,7 @@ The two forms look the same. Open them in the Form Editor to compare how they ar
 ### Points to notice
 
 - **Outsets.** In 21 R5, a filled text with `borderRadius` r is drawn r pixels wider on each side. An input with a solid border and radius r is drawn r+1 pixels wider and 1 pixel taller. The 21 R5 form therefore insets those objects to stay aligned with the 21 R4 layout.
-- **Custom buttons under Liquid Glass.** `borderFillColor`, `borderColor` and `fill` are ignored on `style: custom` buttons, and a default button gets a grey pill. The 21 R5 form draws its Cancel and Create Trip buttons as text objects with fill, border and radius, and puts an invisible button with the action and shortcut on top.
+- **Custom buttons.** The Cancel and Create Trip buttons are `style: custom` buttons with `borderStyle: custom`, so their `borderFillColor`, `borderColor` and `borderRadius` are painted, including under Liquid Glass. Without `borderStyle: custom` the colours are ignored.
 - **One class for both forms.** Both form methods call `cs.NewTripForm.new().handle(FORM Event)`, so the runtime behaviour is identical and only the layout differs.
 - **Localisation.** All strings are in `Resources/en.lproj` and `Resources/ja.lproj`. Choice lists (destinations, trip types, currencies) are pipe-separated XLIFF strings, and the currency sets the unit and decimals (JPY has none).
 
@@ -85,7 +85,7 @@ docs/images/                       screenshots
 ### 注目ポイント
 
 - **はみ出し。** 21 R5 では、塗りつぶしと `borderRadius` r を設定したテキストは左右に r ピクセル広く描画されます。実線の枠線と角丸 r を設定した入力は、左右に r+1 ピクセル、上下に 1 ピクセル広く描画されます。そのため 21 R5 のフォームでは、21 R4 のレイアウトと揃うようにこれらのオブジェクトを内側に配置しています。
-- **Liquid Glass のカスタムボタン。** `style: custom` のボタンでは `borderFillColor`・`borderColor`・`fill` が無視され、デフォルトボタンにはグレーの背景が付きます。21 R5 のフォームでは、キャンセルとツアー作成のボタンを塗りつぶし・枠線・角丸付きのテキストで描画し、その上にアクションとショートカットを持つ非表示のボタンを重ねています。
+- **カスタムボタン。** キャンセルとツアー作成のボタンは `style: custom` と `borderStyle: custom` を設定したボタンです。これにより Liquid Glass でも `borderFillColor`・`borderColor`・`borderRadius` が描画されます。`borderStyle: custom` がないと色の設定は無視されます。
 - **2 つのフォームで 1 つのクラス。** どちらのフォームメソッドも `cs.NewTripForm.new().handle(FORM Event)` を呼び出すので、動作は同じでレイアウトだけが異なります。
 - **ローカライズ。** 文字列はすべて `Resources/en.lproj` と `Resources/ja.lproj` にあります。選択リスト（目的地・ツアー種別・通貨）は XLIFF の文字列をパイプ（|）で区切って定義し、通貨に合わせて単位と小数桁を切り替えます（JPY は小数なし）。
 

@@ -3,7 +3,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"windowTitle": "New Trip",
+	"windowTitle": ":xliff:NewTrip_WindowTitleR5",
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed",
 	"width": 1132,
@@ -12,7 +12,9 @@
 	"colorScheme": "light",
 	"method": "method.4dm",
 	"events": [
-		"onLoad"
+		"onLoad",
+		"onClick",
+		"onDataChange"
 	],
 	"pageFormat": {
 		"paperName": "A4",
@@ -73,7 +75,7 @@
 				},
 				"bannerTitle": {
 					"type": "text",
-					"text": "Travel Agency",
+					"text": ":xliff:NewTrip_Brand",
 					"left": 75,
 					"top": 19,
 					"width": 125,
@@ -88,10 +90,10 @@
 				},
 				"navTrips": {
 					"type": "text",
-					"text": "Trips",
-					"left": 10,
+					"text": ":xliff:NewTrip_NavTrips",
+					"left": 16,
 					"top": 296,
-					"width": 195,
+					"width": 183,
 					"height": 38,
 					"fontTheme": "normal",
 					"fontSize": 17,
@@ -100,7 +102,7 @@
 					"textAlign": "left",
 					"verticalAlign": "middle",
 					"fontWeight": "bold",
-					"paddingLeft": 53,
+					"paddingLeft": 47,
 					"borderRadius": 6
 				},
 				"navTripsIcon": {
@@ -114,7 +116,7 @@
 				},
 				"navBookings": {
 					"type": "text",
-					"text": "Bookings",
+					"text": ":xliff:NewTrip_NavBookings",
 					"left": 10,
 					"top": 341,
 					"width": 195,
@@ -138,7 +140,7 @@
 				},
 				"navCustomers": {
 					"type": "text",
-					"text": "Customers",
+					"text": ":xliff:NewTrip_NavCustomers",
 					"left": 10,
 					"top": 383,
 					"width": 195,
@@ -162,7 +164,7 @@
 				},
 				"navReports": {
 					"type": "text",
-					"text": "Reports",
+					"text": ":xliff:NewTrip_NavReports",
 					"left": 10,
 					"top": 424,
 					"width": 195,
@@ -215,7 +217,7 @@
 				},
 				"headerTitle": {
 					"type": "text",
-					"text": "Create a New Trip",
+					"text": ":xliff:NewTrip_HeaderTitle",
 					"left": 299,
 					"top": 15,
 					"width": 600,
@@ -230,7 +232,7 @@
 				},
 				"headerSubtitle": {
 					"type": "text",
-					"text": "Add the details of the trip to be offered to your customers.",
+					"text": ":xliff:NewTrip_HeaderSubtitle",
 					"left": 299,
 					"top": 49,
 					"width": 600,
@@ -244,10 +246,10 @@
 				},
 				"tripInfoHeader": {
 					"type": "text",
-					"text": "Trip Information",
-					"left": 235,
+					"text": ":xliff:NewTrip_SectionTripInfo",
+					"left": 243,
 					"top": 92,
-					"width": 880,
+					"width": 864,
 					"height": 37,
 					"fontTheme": "normal",
 					"fontSize": 18,
@@ -257,7 +259,7 @@
 					"verticalAlign": "middle",
 					"fontWeight": "bold",
 					"borderRadius": 8,
-					"paddingLeft": 46
+					"paddingLeft": 38
 				},
 				"tripInfoIcon": {
 					"type": "picture",
@@ -280,7 +282,7 @@
 				},
 				"tripNameLabel": {
 					"type": "text",
-					"text": "Trip Name",
+					"text": ":xliff:NewTrip_TripName",
 					"left": 253,
 					"top": 142,
 					"width": 130,
@@ -326,11 +328,11 @@
 					"fontTheme": "normal",
 					"fontSize": 14,
 					"stroke": "#1F2937",
-					"placeholder": "e.g., Discover Morocco"
+					"placeholder": ":xliff:NewTrip_TripNamePlaceholder"
 				},
 				"destinationLabel": {
 					"type": "text",
-					"text": "Destination",
+					"text": ":xliff:NewTrip_Destination",
 					"left": 253,
 					"top": 180,
 					"width": 130,
@@ -361,20 +363,8 @@
 				"destination": {
 					"type": "combo",
 					"dataSource": "Form.destination",
-					"dataSourceTypeHint": "text",
-					"placeholder": "Select a destination",
-					"choiceList": [
-						"Morocco",
-						"Egypt",
-						"Turkey",
-						"Greece",
-						"Spain",
-						"Italy",
-						"France",
-						"Portugal",
-						"Japan",
-						"Thailand"
-					],
+					"dataSourceTypeHint": "object",
+					"placeholder": ":xliff:NewTrip_DestinationPlaceholder",
 					"left": 388,
 					"top": 180,
 					"width": 300,
@@ -384,7 +374,7 @@
 				},
 				"tripTypeLabel": {
 					"type": "text",
-					"text": "Trip Type",
+					"text": ":xliff:NewTrip_TripType",
 					"left": 253,
 					"top": 221,
 					"width": 130,
@@ -400,17 +390,7 @@
 				"tripType": {
 					"type": "dropdown",
 					"dataSource": "Form.tripType",
-					"dataSourceTypeHint": "text",
-					"saveAs": "value",
-					"choiceList": [
-						"Cultural",
-						"Adventure",
-						"Beach & Relaxation",
-						"Desert Safari",
-						"City Break",
-						"Pilgrimage",
-						"Cruise"
-					],
+					"dataSourceTypeHint": "object",
 					"left": 388,
 					"top": 221,
 					"width": 300,
@@ -428,7 +408,7 @@
 				},
 				"startDateLabel": {
 					"type": "text",
-					"text": "Start Date",
+					"text": ":xliff:NewTrip_StartDate",
 					"left": 731,
 					"top": 142,
 					"width": 130,
@@ -474,7 +454,7 @@
 					"fontTheme": "normal",
 					"fontSize": 14,
 					"stroke": "#1F2937",
-					"placeholder": "dd/mm/yyyy",
+					"placeholder": ":xliff:NewTrip_DatePlaceholder",
 					"dateFormat": "short blankIfNull"
 				},
 				"startDateIcon": {
@@ -488,7 +468,7 @@
 				},
 				"endDateLabel": {
 					"type": "text",
-					"text": "End Date",
+					"text": ":xliff:NewTrip_EndDate",
 					"left": 731,
 					"top": 180,
 					"width": 130,
@@ -534,7 +514,7 @@
 					"fontTheme": "normal",
 					"fontSize": 14,
 					"stroke": "#1F2937",
-					"placeholder": "dd/mm/yyyy",
+					"placeholder": ":xliff:NewTrip_DatePlaceholder",
 					"dateFormat": "short blankIfNull"
 				},
 				"endDateIcon": {
@@ -548,7 +528,7 @@
 				},
 				"durationLabel": {
 					"type": "text",
-					"text": "Duration",
+					"text": ":xliff:NewTrip_Duration",
 					"left": 731,
 					"top": 221,
 					"width": 130,
@@ -585,10 +565,10 @@
 				},
 				"pricingHeader": {
 					"type": "text",
-					"text": "Pricing",
-					"left": 235,
+					"text": ":xliff:NewTrip_SectionPricing",
+					"left": 243,
 					"top": 280,
-					"width": 427,
+					"width": 411,
 					"height": 37,
 					"fontTheme": "normal",
 					"fontSize": 18,
@@ -598,7 +578,7 @@
 					"verticalAlign": "middle",
 					"fontWeight": "bold",
 					"borderRadius": 8,
-					"paddingLeft": 46
+					"paddingLeft": 38
 				},
 				"pricingIcon": {
 					"type": "picture",
@@ -621,7 +601,7 @@
 				},
 				"basePriceLabel": {
 					"type": "text",
-					"text": "Base Price",
+					"text": ":xliff:NewTrip_BasePrice",
 					"left": 253,
 					"top": 328,
 					"width": 130,
@@ -667,15 +647,15 @@
 					"fontTheme": "normal",
 					"fontSize": 14,
 					"stroke": "#1F2937",
-					"placeholder": "0.00",
+					"placeholder": ":xliff:NewTrip_PricePlaceholder",
 					"numberFormat": "###,###,##0.00"
 				},
 				"basePriceUnit": {
 					"type": "text",
 					"text": "MAD",
-					"left": 594,
+					"left": 599,
 					"top": 329,
-					"width": 53,
+					"width": 43,
 					"height": 26,
 					"fontTheme": "normal",
 					"fontSize": 14,
@@ -687,7 +667,7 @@
 				},
 				"currencyLabel": {
 					"type": "text",
-					"text": "Currency",
+					"text": ":xliff:NewTrip_Currency",
 					"left": 253,
 					"top": 366,
 					"width": 130,
@@ -703,14 +683,7 @@
 				"currency": {
 					"type": "dropdown",
 					"dataSource": "Form.currency",
-					"dataSourceTypeHint": "text",
-					"saveAs": "value",
-					"choiceList": [
-						"MAD (DH)",
-						"EUR (€)",
-						"USD ($)",
-						"GBP (£)"
-					],
+					"dataSourceTypeHint": "object",
 					"left": 396,
 					"top": 366,
 					"width": 252,
@@ -720,10 +693,10 @@
 				},
 				"availabilityHeader": {
 					"type": "text",
-					"text": "Availability",
-					"left": 687,
+					"text": ":xliff:NewTrip_SectionAvailability",
+					"left": 695,
 					"top": 280,
-					"width": 438,
+					"width": 422,
 					"height": 37,
 					"fontTheme": "normal",
 					"fontSize": 18,
@@ -733,7 +706,7 @@
 					"verticalAlign": "middle",
 					"fontWeight": "bold",
 					"borderRadius": 8,
-					"paddingLeft": 46
+					"paddingLeft": 38
 				},
 				"availabilityIcon": {
 					"type": "picture",
@@ -756,7 +729,7 @@
 				},
 				"totalSeatsLabel": {
 					"type": "text",
-					"text": "Total Seats",
+					"text": ":xliff:NewTrip_TotalSeats",
 					"left": 709,
 					"top": 328,
 					"width": 130,
@@ -821,7 +794,7 @@
 				},
 				"availableSeatsLabel": {
 					"type": "text",
-					"text": "Available Seats",
+					"text": ":xliff:NewTrip_AvailableSeats",
 					"left": 709,
 					"top": 366,
 					"width": 150,
@@ -858,10 +831,10 @@
 				},
 				"descriptionHeader": {
 					"type": "text",
-					"text": "Description",
-					"left": 235,
+					"text": ":xliff:NewTrip_SectionDescription",
+					"left": 243,
 					"top": 425,
-					"width": 549,
+					"width": 533,
 					"height": 37,
 					"fontTheme": "normal",
 					"fontSize": 18,
@@ -871,7 +844,7 @@
 					"verticalAlign": "middle",
 					"fontWeight": "bold",
 					"borderRadius": 8,
-					"paddingLeft": 46
+					"paddingLeft": 38
 				},
 				"descriptionIcon": {
 					"type": "picture",
@@ -935,7 +908,7 @@
 					"left": 259,
 					"text": "B",
 					"fontWeight": "bold",
-					"tooltip": "Bold"
+					"tooltip": ":xliff:NewTrip_TooltipBold"
 				},
 				"tbItalic": {
 					"type": "button",
@@ -952,7 +925,7 @@
 					"left": 289,
 					"text": "I",
 					"fontStyle": "italic",
-					"tooltip": "Italic"
+					"tooltip": ":xliff:NewTrip_TooltipItalic"
 				},
 				"tbUnderline": {
 					"type": "button",
@@ -970,7 +943,7 @@
 					"text": "U",
 					"fontWeight": "bold",
 					"textDecoration": "underline",
-					"tooltip": "Underline"
+					"tooltip": ":xliff:NewTrip_TooltipUnderline"
 				},
 				"tbSeparator1": {
 					"type": "line",
@@ -992,7 +965,7 @@
 					"borderRadius": 4,
 					"left": 376,
 					"icon": "/RESOURCES/Images/NewTrip/tb_bullets.svg",
-					"tooltip": "Bulleted list"
+					"tooltip": ":xliff:NewTrip_TooltipBullets"
 				},
 				"tbNumbers": {
 					"type": "button",
@@ -1006,7 +979,7 @@
 					"borderRadius": 4,
 					"left": 413,
 					"icon": "/RESOURCES/Images/NewTrip/tb_numbers.svg",
-					"tooltip": "Numbered list"
+					"tooltip": ":xliff:NewTrip_TooltipNumbers"
 				},
 				"tbSeparator2": {
 					"type": "line",
@@ -1028,7 +1001,7 @@
 					"borderRadius": 4,
 					"left": 474,
 					"icon": "/RESOURCES/Images/NewTrip/tb_link.svg",
-					"tooltip": "Insert link"
+					"tooltip": ":xliff:NewTrip_TooltipLink"
 				},
 				"descriptionText": {
 					"type": "input",
@@ -1037,7 +1010,7 @@
 					"styledText": true,
 					"multiline": "yes",
 					"scrollbarVertical": "automatic",
-					"placeholder": "Add a short description of the trip (highlights, activities, etc.)",
+					"placeholder": ":xliff:NewTrip_DescriptionPlaceholder",
 					"left": 249,
 					"top": 504,
 					"width": 521,
@@ -1055,10 +1028,10 @@
 				},
 				"tripImageHeader": {
 					"type": "text",
-					"text": "Trip Image",
-					"left": 802,
+					"text": ":xliff:NewTrip_SectionImage",
+					"left": 810,
 					"top": 425,
-					"width": 323,
+					"width": 307,
 					"height": 37,
 					"fontTheme": "normal",
 					"fontSize": 18,
@@ -1068,7 +1041,7 @@
 					"verticalAlign": "middle",
 					"fontWeight": "bold",
 					"borderRadius": 8,
-					"paddingLeft": 46
+					"paddingLeft": 38
 				},
 				"tripImageIcon": {
 					"type": "picture",
@@ -1111,7 +1084,7 @@
 				},
 				"dropZoneText1": {
 					"type": "text",
-					"text": "Drag and drop an image here,",
+					"text": ":xliff:NewTrip_DropHere",
 					"left": 815,
 					"top": 529,
 					"width": 296,
@@ -1125,7 +1098,7 @@
 				},
 				"dropZoneText2": {
 					"type": "text",
-					"text": "or click to",
+					"text": ":xliff:NewTrip_OrClickTo",
 					"left": 815,
 					"top": 550,
 					"width": 149,
@@ -1139,7 +1112,7 @@
 				},
 				"dropZoneBrowse": {
 					"type": "text",
-					"text": "browse",
+					"text": ":xliff:NewTrip_Browse",
 					"left": 968,
 					"top": 550,
 					"width": 143,
@@ -1163,11 +1136,12 @@
 					"borderStyle": "none",
 					"fill": "transparent",
 					"dropping": "custom",
-					"tooltip": "Drop or paste the trip image"
+					"tooltip": ":xliff:NewTrip_ImageTooltip"
 				},
 				"btnCancel": {
 					"type": "button",
 					"style": "custom",
+					"borderStyle": "custom",
 					"top": 638,
 					"height": 36,
 					"fontSize": 16,
@@ -1176,7 +1150,7 @@
 					"borderWidth": 1,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Cancel",
+					"text": ":xliff:NewTrip_Cancel",
 					"action": "cancel",
 					"left": 875,
 					"width": 88,
@@ -1188,6 +1162,7 @@
 				"btnCreate": {
 					"type": "button",
 					"style": "custom",
+					"borderStyle": "custom",
 					"top": 638,
 					"height": 36,
 					"fontSize": 16,
@@ -1196,7 +1171,7 @@
 					"borderWidth": 1,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Create Trip",
+					"text": ":xliff:NewTrip_Create",
 					"action": "accept",
 					"defaultButton": true,
 					"left": 987,

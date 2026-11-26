@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="NewTrip" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="NewTrip_WindowTitleR4" resname="NewTrip_WindowTitleR4">
+        <source>New Trip — 21 R4 technique</source>
+        <target>New Trip — 21 R4 technique</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_WindowTitleR5" resname="NewTrip_WindowTitleR5">
+        <source>New Trip — 21 R5 technique</source>
+        <target>New Trip — 21 R5 technique</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Brand" resname="NewTrip_Brand">
+        <source>Travel Agency</source>
+        <target>Travel Agency</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_NavTrips" resname="NewTrip_NavTrips">
+        <source>Trips</source>
+        <target>Trips</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_NavBookings" resname="NewTrip_NavBookings">
+        <source>Bookings</source>
+        <target>Bookings</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_NavCustomers" resname="NewTrip_NavCustomers">
+        <source>Customers</source>
+        <target>Customers</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_NavReports" resname="NewTrip_NavReports">
+        <source>Reports</source>
+        <target>Reports</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_HeaderTitle" resname="NewTrip_HeaderTitle">
+        <source>Create a New Trip</source>
+        <target>Create a New Trip</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_HeaderSubtitle" resname="NewTrip_HeaderSubtitle">
+        <source>Add the details of the trip to be offered to your customers.</source>
+        <target>Add the details of the trip to be offered to your customers.</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionTripInfo" resname="NewTrip_SectionTripInfo">
+        <source>Trip Information</source>
+        <target>Trip Information</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TripName" resname="NewTrip_TripName">
+        <source>Trip Name</source>
+        <target>Trip Name</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TripNamePlaceholder" resname="NewTrip_TripNamePlaceholder">
+        <source>e.g., Discover Morocco</source>
+        <target>e.g., Discover Morocco</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Destination" resname="NewTrip_Destination">
+        <source>Destination</source>
+        <target>Destination</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DestinationPlaceholder" resname="NewTrip_DestinationPlaceholder">
+        <source>Select a destination</source>
+        <target>Select a destination</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TripType" resname="NewTrip_TripType">
+        <source>Trip Type</source>
+        <target>Trip Type</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_StartDate" resname="NewTrip_StartDate">
+        <source>Start Date</source>
+        <target>Start Date</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_EndDate" resname="NewTrip_EndDate">
+        <source>End Date</source>
+        <target>End Date</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DatePlaceholder" resname="NewTrip_DatePlaceholder">
+        <source>dd/mm/yyyy</source>
+        <target>dd/mm/yyyy</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Duration" resname="NewTrip_Duration">
+        <source>Duration</source>
+        <target>Duration</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionPricing" resname="NewTrip_SectionPricing">
+        <source>Pricing</source>
+        <target>Pricing</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_BasePrice" resname="NewTrip_BasePrice">
+        <source>Base Price</source>
+        <target>Base Price</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_PricePlaceholder" resname="NewTrip_PricePlaceholder">
+        <source>0.00</source>
+        <target>0.00</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Currency" resname="NewTrip_Currency">
+        <source>Currency</source>
+        <target>Currency</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionAvailability" resname="NewTrip_SectionAvailability">
+        <source>Availability</source>
+        <target>Availability</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TotalSeats" resname="NewTrip_TotalSeats">
+        <source>Total Seats</source>
+        <target>Total Seats</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_AvailableSeats" resname="NewTrip_AvailableSeats">
+        <source>Available Seats</source>
+        <target>Available Seats</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionDescription" resname="NewTrip_SectionDescription">
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DescriptionPlaceholder" resname="NewTrip_DescriptionPlaceholder">
+        <source>Add a short description of the trip (highlights, activities, etc.)</source>
+        <target>Add a short description of the trip (highlights, activities, etc.)</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionImage" resname="NewTrip_SectionImage">
+        <source>Trip Image</source>
+        <target>Trip Image</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DropHere" resname="NewTrip_DropHere">
+        <source>Drag and drop an image here,</source>
+        <target>Drag and drop an image here,</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_OrClickTo" resname="NewTrip_OrClickTo">
+        <source>or click to</source>
+        <target>or click to</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Browse" resname="NewTrip_Browse">
+        <source>browse</source>
+        <target>browse</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Cancel" resname="NewTrip_Cancel">
+        <source>Cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_ImageTooltip" resname="NewTrip_ImageTooltip">
+        <source>Drop or paste the trip image</source>
+        <target>Drop or paste the trip image</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipBold" resname="NewTrip_TooltipBold">
+        <source>Bold</source>
+        <target>Bold</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipItalic" resname="NewTrip_TooltipItalic">
+        <source>Italic</source>
+        <target>Italic</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipUnderline" resname="NewTrip_TooltipUnderline">
+        <source>Underline</source>
+        <target>Underline</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipBullets" resname="NewTrip_TooltipBullets">
+        <source>Bulleted list</source>
+        <target>Bulleted list</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipNumbers" resname="NewTrip_TooltipNumbers">
+        <source>Numbered list</source>
+        <target>Numbered list</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipLink" resname="NewTrip_TooltipLink">
+        <source>Insert link</source>
+        <target>Insert link</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Create" resname="NewTrip_Create">
+        <source>Create Trip</source>
+        <target>Create Trip</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Destinations" resname="NewTrip_Destinations">
+        <source>Morocco|Egypt|Turkey|Greece|Spain|Italy|France|Portugal|Japan|Thailand</source>
+        <target>Morocco|Egypt|Turkey|Greece|Spain|Italy|France|Portugal|Japan|Thailand</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TripTypes" resname="NewTrip_TripTypes">
+        <source>Cultural|Adventure|Beach &amp; Relaxation|Desert Safari|City Break|Pilgrimage|Cruise</source>
+        <target>Cultural|Adventure|Beach &amp; Relaxation|Desert Safari|City Break|Pilgrimage|Cruise</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Currencies" resname="NewTrip_Currencies">
+        <source>MAD (DH)|EUR (€)|USD ($)|GBP (£)|JPY (¥)</source>
+        <target>MAD (DH)|EUR (€)|USD ($)|GBP (£)|JPY (¥)</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_CurrencyUnits" resname="NewTrip_CurrencyUnits">
+        <source>MAD|EUR|USD|GBP|JPY</source>
+        <target>MAD|EUR|USD|GBP|JPY</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_CurrencyDecimals" resname="NewTrip_CurrencyDecimals">
+        <source>2|2|2|2|0</source>
+        <target>2|2|2|2|0</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DurationDays" resname="NewTrip_DurationDays">
+        <source>{n} days</source>
+        <target>{n} days</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DurationOneDay" resname="NewTrip_DurationOneDay">
+        <source>1 day</source>
+        <target>1 day</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

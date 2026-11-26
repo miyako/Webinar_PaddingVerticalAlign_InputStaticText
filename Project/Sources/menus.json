@@ -19,10 +19,20 @@
 	"menus": [
 		{
 			"link": 32001,
-			"title": ":xliff:CommonMenuFile",
+			"title": ":xliff:Menu_File",
 			"items": [
 				{
-					"title": ":xliff:CommonMenuItemQuit",
+					"title": ":xliff:MenuItemDemoLauncher",
+					"method": "Start",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:Menu_ItemQuit",
 					"shortcutAccel": true,
 					"shortcutKey": "Q",
 					"action": "quit"
@@ -31,10 +41,10 @@
 		},
 		{
 			"link": 32002,
-			"title": ":xliff:CommonMenuEdit",
+			"title": ":xliff:Menu_Edit",
 			"items": [
 				{
-					"title": ":xliff:CommonMenuItemUndo",
+					"title": ":xliff:Menu_ItemUndo",
 					"shortcutAccel": true,
 					"shortcutKey": "Z",
 					"action": "undo"
@@ -44,29 +54,29 @@
 					"isSeparator": true
 				},
 				{
-					"title": ":xliff:CommonMenuItemCut",
+					"title": ":xliff:Menu_ItemCut",
 					"shortcutAccel": true,
 					"shortcutKey": "X",
 					"action": "cut"
 				},
 				{
-					"title": ":xliff:CommonMenuItemCopy",
+					"title": ":xliff:Menu_ItemCopy",
 					"shortcutAccel": true,
 					"shortcutKey": "C",
 					"action": "copy"
 				},
 				{
-					"title": ":xliff:CommonMenuItemPaste",
+					"title": ":xliff:Menu_ItemPaste",
 					"shortcutAccel": true,
 					"shortcutKey": "V",
 					"action": "paste"
 				},
 				{
-					"title": ":xliff:CommonMenuItemClear",
+					"title": ":xliff:Menu_ItemClear",
 					"action": "clear"
 				},
 				{
-					"title": ":xliff:CommonMenuItemSelectAll",
+					"title": ":xliff:Menu_ItemSelectAll",
 					"shortcutAccel": true,
 					"shortcutKey": "A",
 					"action": "selectAll"
@@ -76,17 +86,17 @@
 					"isSeparator": true
 				},
 				{
-					"title": ":xliff:CommonMenuItemShowClipboard",
+					"title": ":xliff:Menu_ItemShowClipboard",
 					"action": "showClipboard"
 				}
 			]
 		},
 		{
 			"link": 32003,
-			"title": ":xliff:CommonMenuMode",
+			"title": ":xliff:Menu_Mode",
 			"items": [
 				{
-					"title": ":xliff:CommonMenuItemDesign",
+					"title": ":xliff:Menu_ItemDesign",
 					"action": "design"
 				}
 			]

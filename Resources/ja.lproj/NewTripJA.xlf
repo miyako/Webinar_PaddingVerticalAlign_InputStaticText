@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="NewTrip" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="NewTrip_WindowTitleR4" resname="NewTrip_WindowTitleR4">
+        <source>New Trip — 21 R4 technique</source>
+        <target>新しいツアー — 21 R4 の手法</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_WindowTitleR5" resname="NewTrip_WindowTitleR5">
+        <source>New Trip — 21 R5 technique</source>
+        <target>新しいツアー — 21 R5 の手法</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Brand" resname="NewTrip_Brand">
+        <source>Travel Agency</source>
+        <target>旅行会社</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_NavTrips" resname="NewTrip_NavTrips">
+        <source>Trips</source>
+        <target>ツアー</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_NavBookings" resname="NewTrip_NavBookings">
+        <source>Bookings</source>
+        <target>予約</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_NavCustomers" resname="NewTrip_NavCustomers">
+        <source>Customers</source>
+        <target>顧客</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_NavReports" resname="NewTrip_NavReports">
+        <source>Reports</source>
+        <target>レポート</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_HeaderTitle" resname="NewTrip_HeaderTitle">
+        <source>Create a New Trip</source>
+        <target>新しいツアーを作成</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_HeaderSubtitle" resname="NewTrip_HeaderSubtitle">
+        <source>Add the details of the trip to be offered to your customers.</source>
+        <target>お客様に提供するツアーの詳細を入力してください。</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionTripInfo" resname="NewTrip_SectionTripInfo">
+        <source>Trip Information</source>
+        <target>ツアー情報</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TripName" resname="NewTrip_TripName">
+        <source>Trip Name</source>
+        <target>ツアー名</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TripNamePlaceholder" resname="NewTrip_TripNamePlaceholder">
+        <source>e.g., Discover Morocco</source>
+        <target>例：秋の京都を巡る旅</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Destination" resname="NewTrip_Destination">
+        <source>Destination</source>
+        <target>目的地</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DestinationPlaceholder" resname="NewTrip_DestinationPlaceholder">
+        <source>Select a destination</source>
+        <target>目的地を選択</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TripType" resname="NewTrip_TripType">
+        <source>Trip Type</source>
+        <target>ツアー種別</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_StartDate" resname="NewTrip_StartDate">
+        <source>Start Date</source>
+        <target>出発日</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_EndDate" resname="NewTrip_EndDate">
+        <source>End Date</source>
+        <target>帰着日</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DatePlaceholder" resname="NewTrip_DatePlaceholder">
+        <source>dd/mm/yyyy</source>
+        <target>yyyy/mm/dd</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Duration" resname="NewTrip_Duration">
+        <source>Duration</source>
+        <target>日数</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionPricing" resname="NewTrip_SectionPricing">
+        <source>Pricing</source>
+        <target>料金</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_BasePrice" resname="NewTrip_BasePrice">
+        <source>Base Price</source>
+        <target>基本料金</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_PricePlaceholder" resname="NewTrip_PricePlaceholder">
+        <source>0.00</source>
+        <target>0</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Currency" resname="NewTrip_Currency">
+        <source>Currency</source>
+        <target>通貨</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionAvailability" resname="NewTrip_SectionAvailability">
+        <source>Availability</source>
+        <target>空席状況</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TotalSeats" resname="NewTrip_TotalSeats">
+        <source>Total Seats</source>
+        <target>総座席数</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_AvailableSeats" resname="NewTrip_AvailableSeats">
+        <source>Available Seats</source>
+        <target>空席数</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionDescription" resname="NewTrip_SectionDescription">
+        <source>Description</source>
+        <target>説明</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DescriptionPlaceholder" resname="NewTrip_DescriptionPlaceholder">
+        <source>Add a short description of the trip (highlights, activities, etc.)</source>
+        <target>ツアーの概要（見どころ、アクティビティなど）を入力してください</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_SectionImage" resname="NewTrip_SectionImage">
+        <source>Trip Image</source>
+        <target>ツアー画像</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DropHere" resname="NewTrip_DropHere">
+        <source>Drag and drop an image here,</source>
+        <target>ここに画像をドラッグ＆ドロップ</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_OrClickTo" resname="NewTrip_OrClickTo">
+        <source>or click to</source>
+        <target>または</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Browse" resname="NewTrip_Browse">
+        <source>browse</source>
+        <target>ファイルを選択</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Cancel" resname="NewTrip_Cancel">
+        <source>Cancel</source>
+        <target>キャンセル</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_ImageTooltip" resname="NewTrip_ImageTooltip">
+        <source>Drop or paste the trip image</source>
+        <target>ツアー画像をドロップまたはペースト</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipBold" resname="NewTrip_TooltipBold">
+        <source>Bold</source>
+        <target>太字</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipItalic" resname="NewTrip_TooltipItalic">
+        <source>Italic</source>
+        <target>斜体</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipUnderline" resname="NewTrip_TooltipUnderline">
+        <source>Underline</source>
+        <target>下線</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipBullets" resname="NewTrip_TooltipBullets">
+        <source>Bulleted list</source>
+        <target>箇条書き</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipNumbers" resname="NewTrip_TooltipNumbers">
+        <source>Numbered list</source>
+        <target>番号付きリスト</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TooltipLink" resname="NewTrip_TooltipLink">
+        <source>Insert link</source>
+        <target>リンクを挿入</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Create" resname="NewTrip_Create">
+        <source>Create Trip</source>
+        <target>ツアーを作成</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Destinations" resname="NewTrip_Destinations">
+        <source>Morocco|Egypt|Turkey|Greece|Spain|Italy|France|Portugal|Japan|Thailand</source>
+        <target>京都|奈良|北海道|沖縄|東京|金沢|箱根|広島|屋久島|白川郷</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_TripTypes" resname="NewTrip_TripTypes">
+        <source>Cultural|Adventure|Beach &amp; Relaxation|Desert Safari|City Break|Pilgrimage|Cruise</source>
+        <target>文化体験|アドベンチャー|ビーチ＆リゾート|温泉めぐり|街歩き|寺社巡り|クルーズ</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Currencies" resname="NewTrip_Currencies">
+        <source>MAD (DH)|EUR (€)|USD ($)|GBP (£)|JPY (¥)</source>
+        <target>JPY（円）|USD（$）|EUR（€）|GBP（£）|MAD（DH）</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_CurrencyUnits" resname="NewTrip_CurrencyUnits">
+        <source>MAD|EUR|USD|GBP|JPY</source>
+        <target>円|USD|EUR|GBP|MAD</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_CurrencyDecimals" resname="NewTrip_CurrencyDecimals">
+        <source>2|2|2|2|0</source>
+        <target>0|2|2|2|2</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DurationDays" resname="NewTrip_DurationDays">
+        <source>{n} days</source>
+        <target>{n} 日間</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_DurationOneDay" resname="NewTrip_DurationOneDay">
+        <source>1 day</source>
+        <target>日帰り</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

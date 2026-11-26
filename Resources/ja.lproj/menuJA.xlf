@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="menu" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="Menu_Edit" resname="Menu_Edit">
+        <source>Edit</source>
+        <target>編集</target>
+      </trans-unit>
+      <trans-unit id="Menu_File" resname="Menu_File">
+        <source>File</source>
+        <target>ファイル</target>
+      </trans-unit>
+      <trans-unit id="Menu_ItemClear" resname="Menu_ItemClear">
+        <source>Clear</source>
+        <target>クリア</target>
+      </trans-unit>
+      <trans-unit id="Menu_ItemCopy" resname="Menu_ItemCopy">
+        <source>Copy</source>
+        <target>コピー</target>
+      </trans-unit>
+      <trans-unit id="Menu_ItemCut" resname="Menu_ItemCut">
+        <source>Cut</source>
+        <target>カット</target>
+      </trans-unit>
+      <trans-unit id="Menu_ItemDesign" resname="Menu_ItemDesign">
+        <source>Return to Design mode</source>
+        <target>デザインモードに戻る</target>
+      </trans-unit>
+      <trans-unit id="Menu_ItemPaste" resname="Menu_ItemPaste">
+        <source>Paste</source>
+        <target>ペースト</target>
+      </trans-unit>
+      <trans-unit id="Menu_ItemQuit" resname="Menu_ItemQuit">
+        <source>Quit</source>
+        <target>終了</target>
+      </trans-unit>
+      <trans-unit id="Menu_ItemSelectAll" resname="Menu_ItemSelectAll">
+        <source>Select All</source>
+        <target>すべてを選択</target>
+      </trans-unit>
+      <trans-unit id="Menu_ItemShowClipboard" resname="Menu_ItemShowClipboard">
+        <source>Show Clipboard</source>
+        <target>クリップボード表示</target>
+      </trans-unit>
+      <trans-unit id="Menu_ItemUndo" resname="Menu_ItemUndo">
+        <source>Undo</source>
+        <target>取り消し</target>
+      </trans-unit>
+      <trans-unit id="Menu_Mode" resname="Menu_Mode">
+        <source>Mode</source>
+        <target>モード</target>
+      </trans-unit>
+      <trans-unit id="MenuItemDemoLauncher" resname="MenuItemDemoLauncher">
+        <source>Demo Launcher…</source>
+        <target>デモランチャー…</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

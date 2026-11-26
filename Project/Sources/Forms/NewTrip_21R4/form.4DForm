@@ -1178,7 +1178,7 @@
 				"btnCancel": {
 					"type": "button",
 					"style": "custom",
-					"text": ":xliff:CommonCancel",
+					"text": ":xliff:NewTrip_Cancel",
 					"action": "cancel",
 					"left": 875,
 					"top": 638,

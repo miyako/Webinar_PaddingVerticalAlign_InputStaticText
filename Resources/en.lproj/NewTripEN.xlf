@@ -130,6 +130,10 @@
         <source>browse</source>
         <target>browse</target>
       </trans-unit>
+      <trans-unit id="NewTrip_Cancel" resname="NewTrip_Cancel">
+        <source>Cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
       <trans-unit id="NewTrip_ImageTooltip" resname="NewTrip_ImageTooltip">
         <source>Drop or paste the trip image</source>
         <target>Drop or paste the trip image</target>

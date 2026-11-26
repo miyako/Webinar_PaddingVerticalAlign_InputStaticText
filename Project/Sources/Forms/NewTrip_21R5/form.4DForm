@@ -1140,7 +1140,7 @@
 				},
 				"btnCancelLabel": {
 					"type": "text",
-					"text": ":xliff:CommonCancel",
+					"text": ":xliff:NewTrip_Cancel",
 					"left": 881,
 					"top": 638,
 					"width": 76,

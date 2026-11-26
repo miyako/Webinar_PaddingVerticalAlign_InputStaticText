@@ -31,10 +31,3 @@
 .launcherButton, button.launcherButton {
 	fontSize: 14px;
 }
-
-@media (prefers-color-scheme: dark) {
-	.launcherTitle, text.launcherTitle { stroke: #F3F4F6; }
-	.launcherSubtitle, text.launcherSubtitle { stroke: #C9CED6; }
-	.launcherLabel, text.launcherLabel { stroke: #E5E7EB; }
-	.launcherDetail, text.launcherDetail { stroke: #C9CED6; }
-}

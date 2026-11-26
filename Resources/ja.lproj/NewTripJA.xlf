@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="NewTrip_Brand" resname="NewTrip_Brand">
         <source>Travel Agency</source>
-        <target>トラベル エージェンシー</target>
+        <target>旅行会社</target>
       </trans-unit>
       <trans-unit id="NewTrip_NavTrips" resname="NewTrip_NavTrips">
         <source>Trips</source>
@@ -129,6 +129,10 @@
       <trans-unit id="NewTrip_Browse" resname="NewTrip_Browse">
         <source>browse</source>
         <target>ファイルを選択</target>
+      </trans-unit>
+      <trans-unit id="NewTrip_Cancel" resname="NewTrip_Cancel">
+        <source>Cancel</source>
+        <target>キャンセル</target>
       </trans-unit>
       <trans-unit id="NewTrip_ImageTooltip" resname="NewTrip_ImageTooltip">
         <source>Drop or paste the trip image</source>

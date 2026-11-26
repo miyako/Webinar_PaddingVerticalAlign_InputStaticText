@@ -95,7 +95,8 @@ Function centerBrowseLink()
 	OBJECT GET COORDINATES(*; "dropZoneText1"; $zoneLeft; $zoneTop; $zoneRight; $zoneBottom)
 	OBJECT GET BEST SIZE(*; "dropZoneText2"; $width; $height)
 	OBJECT GET BEST SIZE(*; "dropZoneBrowse"; $browseWidth; $height)
-	$start:=$zoneLeft+(($zoneRight-$zoneLeft)-($width+4+$browseWidth))\2
+	// 4D has no operator precedence (strictly left to right): parenthesise the division
+	$start:=$zoneLeft+((($zoneRight-$zoneLeft)-($width+4+$browseWidth))\2)
 	OBJECT GET COORDINATES(*; "dropZoneText2"; $left; $top; $right; $bottom)
 	OBJECT SET COORDINATES(*; "dropZoneText2"; $start; $top; $start+$width; $bottom)
 	OBJECT GET COORDINATES(*; "dropZoneBrowse"; $left; $top; $right; $bottom)

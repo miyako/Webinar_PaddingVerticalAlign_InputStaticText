@@ -5,7 +5,7 @@ $event:=FORM Event
 Case of 
 	: ($event.code=On Load)
 		// language names are endonyms ("English", "日本語"): identical in every XLIFF file
-		Form.language:={values: Split string(Localized string("Launcher_LanguageNames"); "|"); index: Num(Get database localization="ja@")}
+		Form.language:={values: Split string(Localized string("Launcher_LanguageNames"); "|"); index: Num(Get database localization(Current localization)="ja@")}
 		If (Form.reopen#Null)
 			For each ($reopen; Form.reopen)
 				Demo_openForm($reopen.form; {left: $reopen.left; top: $reopen.top})

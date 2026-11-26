@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Launcher" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="Launcher_WindowTitle" resname="Launcher_WindowTitle">
+        <source>Padding &amp; Vertical Align — Demo</source>
+        <target>パディングと垂直揃え — デモ</target>
+      </trans-unit>
+      <trans-unit id="Launcher_Title" resname="Launcher_Title">
+        <source>Padding &amp; Vertical Align</source>
+        <target>パディングと垂直揃え</target>
+      </trans-unit>
+      <trans-unit id="Launcher_Subtitle" resname="Launcher_Subtitle">
+        <source>Input and Static Text in 4D 21 R5 — the same “New Trip” form built two ways.</source>
+        <target>4D 21 R5 の入力オブジェクトとスタティックテキスト — 同じ「新しいツアー」フォームを 2 通りの方法で作成</target>
+      </trans-unit>
+      <trans-unit id="Launcher_Language" resname="Launcher_Language">
+        <source>Language</source>
+        <target>言語</target>
+      </trans-unit>
+      <trans-unit id="Launcher_LanguageNames" resname="Launcher_LanguageNames">
+        <source>English|日本語</source>
+        <target>English|日本語</target>
+      </trans-unit>
+      <trans-unit id="Launcher_OpenR4" resname="Launcher_OpenR4">
+        <source>21 R4 technique</source>
+        <target>21 R4 の手法</target>
+      </trans-unit>
+      <trans-unit id="Launcher_OpenR4Detail" resname="Launcher_OpenR4Detail">
+        <source>Rectangles behind borderless texts and inputs</source>
+        <target>枠なしのテキストと入力の背後に矩形を配置</target>
+      </trans-unit>
+      <trans-unit id="Launcher_OpenR5" resname="Launcher_OpenR5">
+        <source>21 R5 technique</source>
+        <target>21 R5 の手法</target>
+      </trans-unit>
+      <trans-unit id="Launcher_OpenR5Detail" resname="Launcher_OpenR5Detail">
+        <source>padding, verticalAlign, borderRadius and fill on the object itself</source>
+        <target>オブジェクト自体に padding・verticalAlign・borderRadius・fill を設定</target>
+      </trans-unit>
+      <trans-unit id="Launcher_SideBySide" resname="Launcher_SideBySide">
+        <source>Compare side by side</source>
+        <target>並べて比較</target>
+      </trans-unit>
+      <trans-unit id="Launcher_SideBySideDetail" resname="Launcher_SideBySideDetail">
+        <source>Open both forms next to each other</source>
+        <target>2 つのフォームを並べて表示</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

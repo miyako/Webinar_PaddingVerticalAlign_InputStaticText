@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Launcher" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Launcher_WindowTitle" resname="Launcher_WindowTitle">
+        <source>Padding &amp; Vertical Align — Demo</source>
+        <target>Padding &amp; Vertical Align — Demo</target>
+      </trans-unit>
+      <trans-unit id="Launcher_Title" resname="Launcher_Title">
+        <source>Padding &amp; Vertical Align</source>
+        <target>Padding &amp; Vertical Align</target>
+      </trans-unit>
+      <trans-unit id="Launcher_Subtitle" resname="Launcher_Subtitle">
+        <source>Input and Static Text in 4D 21 R5 — the same “New Trip” form built two ways.</source>
+        <target>Input and Static Text in 4D 21 R5 — the same “New Trip” form built two ways.</target>
+      </trans-unit>
+      <trans-unit id="Launcher_Language" resname="Launcher_Language">
+        <source>Language</source>
+        <target>Language</target>
+      </trans-unit>
+      <trans-unit id="Launcher_LanguageNames" resname="Launcher_LanguageNames">
+        <source>English|日本語</source>
+        <target>English|日本語</target>
+      </trans-unit>
+      <trans-unit id="Launcher_OpenR4" resname="Launcher_OpenR4">
+        <source>21 R4 technique</source>
+        <target>21 R4 technique</target>
+      </trans-unit>
+      <trans-unit id="Launcher_OpenR4Detail" resname="Launcher_OpenR4Detail">
+        <source>Rectangles behind borderless texts and inputs</source>
+        <target>Rectangles behind borderless texts and inputs</target>
+      </trans-unit>
+      <trans-unit id="Launcher_OpenR5" resname="Launcher_OpenR5">
+        <source>21 R5 technique</source>
+        <target>21 R5 technique</target>
+      </trans-unit>
+      <trans-unit id="Launcher_OpenR5Detail" resname="Launcher_OpenR5Detail">
+        <source>padding, verticalAlign, borderRadius and fill on the object itself</source>
+        <target>padding, verticalAlign, borderRadius and fill on the object itself</target>
+      </trans-unit>
+      <trans-unit id="Launcher_SideBySide" resname="Launcher_SideBySide">
+        <source>Compare side by side</source>
+        <target>Compare side by side</target>
+      </trans-unit>
+      <trans-unit id="Launcher_SideBySideDetail" resname="Launcher_SideBySideDetail">
+        <source>Open both forms next to each other</source>
+        <target>Open both forms next to each other</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

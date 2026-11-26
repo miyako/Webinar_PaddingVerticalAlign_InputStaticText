@@ -1,0 +1,143 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowTitle": ":xliff:Launcher_WindowTitle",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 640,
+	"height": 356,
+	"destination": "detailScreen",
+	"method": "method.4dm",
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDataChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"title": {
+					"type": "text",
+					"text": ":xliff:Launcher_Title",
+					"class": "launcherTitle",
+					"left": 32,
+					"top": 20,
+					"width": 576,
+					"height": 36
+				},
+				"subtitle": {
+					"type": "text",
+					"text": ":xliff:Launcher_Subtitle",
+					"class": "launcherSubtitle",
+					"left": 32,
+					"top": 60,
+					"width": 576,
+					"height": 40
+				},
+				"languageLabel": {
+					"type": "text",
+					"text": ":xliff:Launcher_Language",
+					"class": "launcherLabel",
+					"left": 32,
+					"top": 116,
+					"width": 120,
+					"height": 28
+				},
+				"language": {
+					"type": "dropdown",
+					"dataSource": "Form.language",
+					"dataSourceTypeHint": "object",
+					"left": 160,
+					"top": 116,
+					"width": 180,
+					"height": 28,
+					"fontSize": 14
+				},
+				"divider": {
+					"type": "line",
+					"left": 32,
+					"top": 164,
+					"width": 576,
+					"height": 0,
+					"stroke": "#D5DAE1"
+				},
+				"btnOpenR4": {
+					"type": "button",
+					"style": "regular",
+					"text": ":xliff:Launcher_OpenR4",
+					"class": "launcherButton",
+					"left": 32,
+					"top": 184,
+					"width": 220,
+					"height": 32,
+					"events": [
+						"onClick"
+					]
+				},
+				"detailR4": {
+					"type": "text",
+					"text": ":xliff:Launcher_OpenR4Detail",
+					"class": "launcherDetail",
+					"left": 268,
+					"top": 184,
+					"width": 340,
+					"height": 32
+				},
+				"btnOpenR5": {
+					"type": "button",
+					"style": "regular",
+					"text": ":xliff:Launcher_OpenR5",
+					"class": "launcherButton",
+					"left": 32,
+					"top": 232,
+					"width": 220,
+					"height": 32,
+					"events": [
+						"onClick"
+					]
+				},
+				"detailR5": {
+					"type": "text",
+					"text": ":xliff:Launcher_OpenR5Detail",
+					"class": "launcherDetail",
+					"left": 268,
+					"top": 232,
+					"width": 340,
+					"height": 32
+				},
+				"btnSideBySide": {
+					"type": "button",
+					"style": "regular",
+					"text": ":xliff:Launcher_SideBySide",
+					"class": "launcherButton",
+					"defaultButton": true,
+					"left": 32,
+					"top": 280,
+					"width": 220,
+					"height": 32,
+					"events": [
+						"onClick"
+					]
+				},
+				"detailSideBySide": {
+					"type": "text",
+					"text": ":xliff:Launcher_SideBySideDetail",
+					"class": "launcherDetail",
+					"left": 268,
+					"top": 280,
+					"width": 340,
+					"height": 32
+				}
+			}
+		}
+	],
+	"geometryStamp": 1
+}

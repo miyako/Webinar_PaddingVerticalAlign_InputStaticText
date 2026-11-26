@@ -1,0 +1,40 @@
+/* Shared stylesheet.
+   Only the demo launcher uses classes: the NewTrip forms keep every visual property
+   in their JSON on purpose, because those properties are what the webinar compares. */
+
+.launcherTitle, text.launcherTitle {
+	fontSize: 24px;
+	fontWeight: bold;
+	stroke: #14213D;
+	verticalAlign: bottom;
+}
+
+.launcherSubtitle, text.launcherSubtitle {
+	fontSize: 14px;
+	stroke: #4B5563;
+	verticalAlign: top;
+}
+
+.launcherLabel, text.launcherLabel {
+	fontSize: 14px;
+	fontWeight: bold;
+	stroke: #1F2937;
+	verticalAlign: middle;
+}
+
+.launcherDetail, text.launcherDetail {
+	fontSize: 13px;
+	stroke: #4B5563;
+	verticalAlign: middle;
+}
+
+.launcherButton, button.launcherButton {
+	fontSize: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.launcherTitle, text.launcherTitle { stroke: #F3F4F6; }
+	.launcherSubtitle, text.launcherSubtitle { stroke: #C9CED6; }
+	.launcherLabel, text.launcherLabel { stroke: #E5E7EB; }
+	.launcherDetail, text.launcherDetail { stroke: #C9CED6; }
+}

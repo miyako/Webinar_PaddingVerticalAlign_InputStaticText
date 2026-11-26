@@ -22,6 +22,16 @@
 			"title": ":xliff:CommonMenuFile",
 			"items": [
 				{
+					"title": ":xliff:MenuItemDemoLauncher",
+					"method": "Start",
+					"shortcutAccel": true,
+					"shortcutKey": "L"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
 					"title": ":xliff:CommonMenuItemQuit",
 					"shortcutAccel": true,
 					"shortcutKey": "Q",
